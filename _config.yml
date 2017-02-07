@@ -13,7 +13,7 @@ name                     : "UofTViewFinder"
 description              : "Film Canisters for ViewFinder Camera Club"
 url                      : "https://UofTViewFinder.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/UofTViewFinder/UofTViewFinder.github.io"
+repository               : "git@github.com:UofTViewFinder/UofTViewFinder.github.io.git" # "https://github.com/UofTViewFinder/UofTViewFinder.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -77,10 +77,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mark"
-  avatar           :  #"/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "UTVF"
+  avatar           : "assets/images/club_avatar.jpg"
+  bio              : "we fill film canisters with photography porn"
+  location         : "University of Toronto, ON"
   email            :
   uri              :
   bitbucket        :
@@ -177,6 +177,9 @@ paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
+# Github metadata
+repository: UofTViewFinder/UofTViewFinder.github.io
+
 # Plugins
 gems:
   - jekyll-paginate
@@ -184,6 +187,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-github-metadata
 
 # mimic GitHub Pages with --safe
 whitelist:
